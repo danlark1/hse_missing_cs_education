@@ -16,7 +16,7 @@
 8. Виртуализация: FUSE, SSHFS, VPN, SSH, API, RPCs.
 9. Kubernetes, Docker и контейнерезация с примерами.
 10. Markdown, LaTeX, LaTeX beamer, Notebook, Overleaf, github actions.
-11. Технология LLVM для написания языков программирования.
+11. [Технология LLVM для написания языков программирования.](./llvm)
 12. Network, установка и регулирование DNS, дебаг фронтенда, cookies, ping, traceroute, tcpdump, https, end-to-end encryption.
 13. AWS, Google Cloud, Microsoft Azure, что, зачем, почему и когда выбирать.
 14. Тестирование. Unit, Mock, Fake, e2e, CI. Code review, документация: самодокументирующиеся пайплайны, лицензии и IP.
