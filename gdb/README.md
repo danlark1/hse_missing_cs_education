@@ -1,6 +1,6 @@
 # GDB
 
-Полезные ссылки помимо презентации
+Полезные ссылки помимо [презентации](https://drive.google.com/file/d/1qSqUIxxBNzkLGdQeExW3auKz_1hIh88d/view?usp=sharing)
 
 * [GDB cheatsheet](https://www.cs.princeton.edu/courses/archive/fall16/cos432/hw2/gdb-refcard.pdf)
 * [Writing Linux Debugger](https://blog.tartanllama.xyz/writing-a-linux-debugger-setup/)
