@@ -458,9 +458,9 @@ index 94bab17..f0013b2 100644
 fish будет автодополнение по всем командам, референсам git, очень полезно.
 - **Текстовые редакторы**: Для vim -- [fugitive.vim](https://github.com/tpope/vim-fugitive),
 в Sublime Text по умолчанию есть.
-- **GitHub**: git не gitHub, это просто remote провайдер и удобным интерфейсом
+- **github**: git не github, это просто remote провайдер и удобным интерфейсом
 для code review и merge изменений.
-- **Git providers**: GitHub не единственны: как минимум есть
+- **git providers**: github не единственный: как минимум есть
 [GitLab](https://about.gitlab.com/) и
 [BitBucket](https://bitbucket.org/).
 
