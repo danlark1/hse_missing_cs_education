@@ -10,6 +10,7 @@
 2. [Shell scripting, grep, find, curl, sed.](./shell-scripting)
 3. [Мощь текстовых редакторов, vim и sublime text. Философия, архитектура, ключевые идеи.](./text_editors)
 4. [git, mercurial и svn, основные идеи.](./version_control)
+4. git, mercurial и svn, основные идеи.
 5. [gdb, lldb, дебаг процессов unix систем.](./gdb)
 6. cmake, make, bazel, gopackage, requirements.txt. Основные определения, понятия, способы сборки, зависимости, статическая и динамическая линковка.
 7. apt, pacman, brew. Децентрализованные package менеджеры. Ubuntu, Gentoo, Arch Linux, Fedora, их философия и выбор.
