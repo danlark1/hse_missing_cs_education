@@ -83,7 +83,7 @@
 Когда вы открываете терминал с bash, у вас перед глазами будет что-то похожее
 на следующее:
 
-```sh
+```console
 danlark@danlark:~$
 ```
 
@@ -94,7 +94,7 @@ danlark@danlark:~$
 
 Дальше shell предоставляет вам исполнять команды
 
-```sh
+```console
 danlark@danlark:~$ whoami
 danlark
 danlark@danlark:~$ hostname
@@ -108,7 +108,7 @@ danlark
 выводить **аргументы командной строки**, причём `echo` ничего не знает про
 `$PATH` -- сам bash раскрывает эту переменную при исполнении.
 
-```sh
+```console
 danlark@danlark:~$ echo PATH
 PATH
 danlark@danlark:~$ echo $PATH
@@ -120,7 +120,7 @@ danlark@danlark:~$ echo $PATH
 попавшемуся пути в переменной. Например, у меня бинарный файл `whoami` на самом
 деле лежит по `/usr/bin/whoami`. Вы можете это узнать написав команду `which`.
 
-```sh
+```console
 danlark@danlark:~$ which whoami
 /usr/bin/whoami
 danlark@danlark:~$ which which
@@ -129,7 +129,7 @@ danlark@danlark:~$ which which
 
 Вы также можете переопределять эти переменные перед командами, например,
 
-```sh
+```console
 danlark@danlark:~$ PATH=/usr/local/bin whoami
 bash: whoami: command not found
 danlark@danlark:~$ PATH=/usr/bin whoami
@@ -142,7 +142,7 @@ danlark
 например, при навигации по директориям, если какая-то названа `hse course`, то
 её создавать или в неё входить можно так
 
-```sh
+```console
 danlark@danlark:~$ mkdir hse\ course
 danlark@danlark:~$ cd "hse course"
 danlark@danlark:~/hse course$ pwd
@@ -154,7 +154,7 @@ danlark@danlark:~/hse course$
 кавычку использовать в названии, то её можно окружить кавычками другого типа и
 всё будет работать, пример:
 
-```sh
+```console
 danlark@danlark:~$ mkdir 'hse\ "course'
 danlark@danlark:~$ cd 'hse\ "course'
 danlark@danlark:~/hse\ "course$
@@ -164,7 +164,7 @@ danlark@danlark:~/hse\ "course$
 под одной точкой, называемой "root" или `/`. Все остальные файлы, девайсы
 находятся под `/`. Основные команды для навигации такие:
 
-```sh
+```console
 danlark@danlark:~$ pwd
 /home/danlark
 danlark@danlark:~$ cd /home
@@ -195,7 +195,7 @@ hello
 что за файлы и папки находятся в текущей директорории, достаточно запустить
 команду `ls` -- list.
 
-```sh
+```console
 danlark@danlark:~$ ls
  -                                       Documents
  1_5zVzH8TuK1M-oxVnVEY1GA.png            Downloads
@@ -207,7 +207,7 @@ danlark@danlark:~$ ls
 Чтобы посмотреть больше информации, у `ls` есть опция `-l`, и вывод будет
 более полным
 
-```sh
+```console
 danlark@danlark:~$ ls -l
 total 250928
 drwxr-xr-x  1 danlark primarygroup    224044 May  4 13:11  dir_name
@@ -219,7 +219,7 @@ drwxr-xr-x  1 danlark primarygroup    224044 May  4 13:11  dir_name
 
 На некоторых современных bash `ls -l` можно просто заменить на `ll`.
 
-```sh
+```console
 drwxr-xr-x  1 danlark primarygroup    224044 May  4 13:11  dir_name
 ```
 
@@ -232,7 +232,7 @@ owner и owner group могут читать и заходить. Единица
 Так как битов по 3, то их представляют в 8-ричной системе счисления и эти
 доступы можно менять, например
 
-```sh
+```console
 danlark@danlark:~$ chmod 775 dir_name
 danlark@danlark:~$ ls -ld dir_name
 drwxrwxr-x 2 danlark primarygroup 4096 Aug 16 15:55 dir_name
@@ -266,7 +266,7 @@ drwxrwxr-x 2 danlark primarygroup 4096 Aug 16 15:55 dir_name
 же вы хотите всегда быть в root в каких-то операциях, вы можете войти в `su`
 (super user) мод
 
-```sh
+```console
 danlark@danlark:~$ sudo su
 [sudo] password for danlark:
 root@danlark:/home/danlark#
@@ -284,7 +284,7 @@ root@danlark:/home/danlark#
 `file` будет добавлен вывод программы. Рассмотрим простешие примеры (`cat`,
 кстати, команда для прочтения файла или stdin, если запущена без аргументов)
 
-```sh
+```console
 danlark@danlark:~$ echo hello >hello.txt
 danlark@danlark:~$ cat hello.txt
 hello
@@ -301,7 +301,7 @@ hello world
 Также выход одной программы можно перенаправлять на вход другой через оператор
 pipe `|`, например
 
-```sh
+```console
 danlark@danlark:~$ ls -l | head -n 3
 total 250712
 -rw-r-----  1 danlark primarygroup    110021 Jul 29 15:45 1_5zVzH8TuK1M-oxVnVEY1GA.png
@@ -310,7 +310,7 @@ total 250712
 
 Или что-то более сложное
 
-```sh
+```console
 danlark@danlark~$ curl --head -s google.com | grep -i content-length | cut --delimiter=' ' -f2
 219
 ```
@@ -320,7 +320,7 @@ danlark@danlark~$ curl --head -s google.com | grep -i content-length | cut --del
 
 Помните, что иногда в файлы нельзя ничего записать
 
-```sh
+```console
 danlark@danlark:~$ touch hello.txt
 danlark@danlark:~$ chmod 000 hello.txt
 danlark@danlark:~$ echo hello >hello.txt
@@ -330,7 +330,7 @@ bash: hello.txt: Permission denied
 Но для некоторых может стать удивлением, что в `hello.txt` нельзя записать с
 sudo
 
-```sh
+```console
 danlark@danlark:~$ sudo echo hello >hello.txt
 bash: hello.txt: Permission denied
 ```
@@ -340,7 +340,7 @@ bash: hello.txt: Permission denied
 в будущем, стоит использовать `sudo su`, как писалось выше или окружать
 полностью команду в sudo
 
-```sh
+```console
 danlark@danlark:~$ sudo echo hello >hello.txt
 bash: hello.txt: Permission denied
 danlark@danlark:~$ sudo bash -c 'echo hello >hello.txt'
@@ -358,7 +358,7 @@ bash: hello.txt: Permission denied
 `>/dev/null 2>/dev/null`. А если вам надо что-то поискать по `stderr`, можно
 его перенаправить в `stdout` с помощью `2>&1 | grep $your_token`.
 
-```sh
+```console
 danlark@danlark:~$ man | grep you
 What manual page do you want?
 For example, try 'man man'.
@@ -376,7 +376,7 @@ danlark@danlark:~$ man 2>/dev/null | grep you
 Вы можете писать множество команд через `&&`, где часть справа выполнится только
 если корректно (с кодом возврата 0) завершилась.
 
-```sh
+```console
 danlark@danlark:~$ ls | head -n 5 && echo OK!
 1_5zVzH8TuK1M-oxVnVEY1GA.png
 2020-07-29-155724_1113x656_scrot.png
@@ -393,7 +393,7 @@ shell этот процесс не блокирует, то есть можно 
 можно использовать tmux (будет в конце лекции), либо использовать команду
 `nohup`.
 
-```sh
+```console
 danlark@danlark:~$ nohup ./server --port=1488 &
 ```
 
@@ -419,7 +419,7 @@ alias lmao='touch all'
 называемые tab-completions, например, если я хочу пойти в какую-то директорию с
 префиксом `Do`, то я пишу `cd Do` и жму TAB 1 или 2 раза и появляются варианты
 
-```sh
+```console
 danlark@danlark:~$ cd Do
 Documents/ Downloads/
 ```

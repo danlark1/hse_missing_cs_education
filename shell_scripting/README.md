@@ -252,7 +252,7 @@ esac
 
 У переменных можно брать подстроки похоже как в Python, например,
 
-```sh
+```console
 $ echo ${PATH:0:2}
 /u
 $ echo ${PATH:0:-1}
@@ -263,7 +263,7 @@ $ echo ${PATH:50:-1}
 
 Заменять подстроки
 
-```sh
+```console
 $ first="HSE is worse than MIPT"
 $ second="better"
 $ echo "${first/worse/$second}"
@@ -272,7 +272,7 @@ HSE is better than MIPT
 
 И по регулярному выражнию
 
-```sh
+```console
 $ message='The secret code is 12345'
 $ echo "${message/[0-9]*/X}"
 The secret code is X
@@ -280,7 +280,7 @@ The secret code is X
 
 И даже все вхождения, а не только первое c помощью дополнительного слеша
 
-```sh
+```console
 $ message='The secret code is 12345'
 $ echo "${message//[0-9]/X}"
 The secret code is XXXXX
@@ -290,7 +290,7 @@ The secret code is XXXXX
 
 В bash очень удобно раскывать множество значений одновременно, например
 
-```sh
+```console
 $ touch problem_{1..5}.cpp
 $ ll | grep problem
 -rw-r--r-- 1 danilak primarygroup   0 Aug 16 20:41 problem_1.cpp
@@ -302,7 +302,7 @@ $ ll | grep problem
 
 Можно так же делать через запятую, они все раскрываются
 
-```sh
+```console
 $ touch problem_{1,2,3,4,5}_{1,2,3,4,5,7,10}.cc
 $ ll | grep problem_ | wc -l
 35
@@ -349,7 +349,7 @@ Matches patterns in input text.
    grep {{search_pattern}} {{path/to/file}}
 ```
 
-```sh
+```console
 $ grep "ro\{2\}t" /etc/passwd
 root:x:0:0:root:/root:/bin/bash
 ```
@@ -362,7 +362,7 @@ grep может выводить строки файлов с опцией `-n`,
 
 grep очень удобен для pipe поиска, например, достаточно используется как
 
-```sh
+```console
 $ cmd | grep $search_pattern
 ```
 
@@ -379,7 +379,7 @@ $ cmd | grep $search_pattern
 Одна из самых насыщенных утилит для поиска файлов в директориях. Примеры скажут
 сами за себя
 
-```sh
+```console
 # Find all directories named src
 $ find . -name src -type d
 # Find all python files that have a folder named test in their path
@@ -392,7 +392,7 @@ $ find . -size +500k -size -10M -name '*.tar.gz'
 
 Также можно find передавать как аргументы для исполнения команд
 
-```sh
+```console
 # Delete all files with .tmp extension
 $ find . -name '*.tmp' -exec rm {} \;
 # Find all PNG files and convert them to JPG
@@ -402,7 +402,7 @@ $ find . -name '*.png' -exec convert {} {}.jpg \;
 Также часто используется команда xargs, которая умеет передавать stdout
 программы как аргументы другой, например
 
-```sh
+```console
 $ find . -name '*.tmp' | xargs rm
 ```
 
@@ -442,7 +442,7 @@ sed (stream editor), это утилита для запуска скрипто�
 файлы, однако используется в большинстве своём построчными заменами одного
 регулярного выражения на другие
 
-```sh
+```console
 # Замена и вывод в stdout
 $ sed 's/expr_1/expr_2/' file.txt
 # Inplace замена
@@ -452,7 +452,7 @@ $ sed -i 's/expr_1/expr_2/' file.txt
 В `expr_1` можно ставить скобки, а в `expr_2` можно использовать их в порядке как
 \1, итд, например
 
-```sh
+```console
 $ cat file.txt
 some_thing1
 some_thing2
@@ -487,8 +487,8 @@ another_string
 идёт с 4 до 17 строки, если строка `/apple/s`, то операция произведётся только
 со всеми, где есть `apple`, `!s` -- отрицание. Например
 
-```sh
-sed -E '1,3!s/some_(thing[0-9])/\1/' file.txt
+```console
+$ sed -E '1,3!s/some_(thing[0-9])/\1/' file.txt
 some_thing1
 some_thing2
 some_thing3
@@ -503,7 +503,7 @@ kek
 команд, например, `d` -- delete, `y` -- траснлитерация, `i` -- вставка перед
 текстом
 
-```sh
+```console
 $ seq 10 | sed '1,3d'
 4
 5
