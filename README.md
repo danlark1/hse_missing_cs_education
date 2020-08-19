@@ -7,7 +7,7 @@
 Примерная программа курса
 
 1. [Ввводная лекция. Shell, env variables, различные виды, zsh, fish, tmux. Примеры типичных комманд и ошибок.](./intro)
-2. [Shell scripting, grep, find, curl, sed.](./shell-scripting)
+2. [Shell scripting, grep, find, curl, sed.](./shell_scripting)
 3. [Мощь текстовых редакторов, vim и sublime text. Философия, архитектура, ключевые идеи.](./text_editors)
 4. [git, mercurial и svn, основные идеи.](./version_control)
 4. git, mercurial и svn, основные идеи.
@@ -26,4 +26,4 @@
 
 Домашние задания
 
-1. [Shell Scripting](./homework/shell-scripting)
+1. [Shell Scripting](./homework/shell_scripting)
