@@ -26,3 +26,4 @@
 Домашние задания
 
 1. [Shell Scripting](./homework/shell_scripting)
+1. [GDB Debug](./homework/gdb_debug)
