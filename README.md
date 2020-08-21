@@ -25,3 +25,4 @@
 
 1. [Shell Scripting](./homework/shell_scripting)
 1. [GDB Debug](./homework/gdb_debug)
+1. Публикация своего резюме через Github Actions
