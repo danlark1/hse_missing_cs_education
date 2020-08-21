@@ -92,10 +92,9 @@ Rules, например, компилятор и линкер в сборке C+
 
 ```make
 paper.pdf: paper.tex plot-data.png
-  pdflatex paper.tex
+	pdflatex paper.tex
 
 plot-%.png: %.dat plot.py
-  ./plot.py -i $*.dat -o $@
+	./plot.py -i $*.dat -o $@
 ```
-
 
