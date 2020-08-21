@@ -11,7 +11,7 @@
 1. [Мощь текстовых редакторов, vim и sublime text. Философия, архитектура, ключевые идеи.](./text_editors)
 1. [git, mercurial и svn, основные идеи.](./version_control)
 1. [gdb, lldb, дебаг процессов unix систем.](./gdb)
-1. cmake, make, bazel, gopackage, requirements.txt. Основные определения, понятия, способы сборки.
+1. [cmake, make, bazel, gopackage, requirements.txt. Основные определения, понятия, способы сборки.](./build_systems)
 1. apt, pacman, brew. Децентрализованные package менеджеры. Ubuntu, Gentoo, Arch Linux, Fedora, их философия и выбор.
 1. Виртуализация: FUSE, SSHFS, VPN, SSH, API, RPCs.
 1. Kubernetes, Docker и контейнерезация с примерами.
