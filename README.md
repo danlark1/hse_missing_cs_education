@@ -6,7 +6,7 @@
 
 Примерная программа курса
 
-1. [Ввводная лекция. Shell, env variables, различные виды, zsh, fish, tmux. Примеры типичных комманд и ошибок.](./intro)
+1. [Вводная лекция. Shell, env variables, различные виды, zsh, fish, tmux. Примеры типичных комманд и ошибок.](./intro)
 1. [Shell scripting, grep, find, curl, sed.](./shell_scripting)
 1. [Мощь текстовых редакторов, vim и sublime text. Философия, архитектура, ключевые идеи.](./text_editors)
 1. [git, mercurial и svn, основные идеи.](./version_control)
