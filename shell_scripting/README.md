@@ -271,7 +271,7 @@ $ echo "${first/worse/$second}"
 HSE is better than MIPT
 ```
 
-И по регулярному выражнию
+И по регулярному выражению
 
 ```console
 $ message='The secret code is 12345'
