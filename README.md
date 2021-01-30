@@ -8,7 +8,7 @@
 
 1. [Вводная лекция. Shell, env variables, различные виды, zsh, fish, tmux. Примеры типичных команд и ошибок.](./intro) [**Запись**](https://youtu.be/4wLEVnGm_5c)
 1. [Shell scripting, grep, find, curl, sed.](./shell_scripting) [**Запись**](https://youtu.be/4I24oiwAedI)
-1. [Мощь текстовых редакторов, vim и sublime text. Философия, архитектура, ключевые идеи.](./text_editors). [**Запись**](https://youtu.be/NcCwTYlB2Ss)
+1. [Мощь текстовых редакторов, vim и sublime text. Философия, архитектура, ключевые идеи.](./text_editors) [**Запись**](https://youtu.be/NcCwTYlB2Ss)
 1. [git, mercurial и svn, основные идеи.](./version_control) [**Запись**](https://youtu.be/xbZceDrBhIA)
 1. Безопасность и приватность. [**Запись**](https://youtu.be/PlL44J5OOWQ)
 1. [gdb, lldb, дебаг процессов unix систем.](./gdb) [**Запись**](https://youtu.be/tWvuSPJi4T0)
