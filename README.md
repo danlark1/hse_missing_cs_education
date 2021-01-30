@@ -13,7 +13,7 @@
 1. Безопасность и приватность. [**Запись**](https://youtu.be/PlL44J5OOWQ)
 1. [gdb, lldb, дебаг процессов unix систем.](./gdb) [**Запись**](https://youtu.be/tWvuSPJi4T0)
 1. [cmake, make, bazel, gopackage, requirements.txt, CI, тестирование. Основные определения, понятия, способы сборки.](./build_systems) [**Запись**](https://youtu.be/XBdmvvvunb4)
-1. [apt, pacman, brew. Децентрализованные package менеджеры. Ubuntu, Gentoo, Arch Linux, Fedora, их философия и выбор, open source.](./package_managers)
+1. [apt, pacman, brew. Децентрализованные package менеджеры. Ubuntu, Gentoo, Arch Linux, Fedora, их философия и выбор, open source.](./package_managers) [**Запись**](https://youtu.be/jObFt15pg38)
 1. Виртуализация и контейнеризация: FUSE, SSHFS, VPN, SSH, API, RPCs, Docker.
 1. Markdown, LaTeX, LaTeX beamer, Notebook, Overleaf, github actions.
 1. [Технология LLVM для написания языков программирования.](./llvm)
