@@ -79,8 +79,10 @@
   * `# docker attach $CONTAINER_ID`
   * `# docker stop $CONTAINER_ID`
   * `# docker rm $CONTAINER_ID`
+    * `# docker stop $(docker ps -a -q)` для остановки всех
+    * `# docker rm $(docker ps -a -q)` для удаления всех
   * `# docker rmi $IMAGE_ID`
-  * `# docker prune` для удаления всех контейнеров, которые не используются
+  * `# docker images prune` для удаления всех образов, которые не используются
 * Запустите pdflatex на Ваш главный .tex файл (обычно это `main.tex`) и
   убедитесь, что pdf, которая получилась, соответствует Вашим ожиданиям. А если
   нет, правьте, чтобы соответствовало. **Убедитесь, что Вы запускаете pdflatex с аргументом `-interaction=nonstopmode`**
