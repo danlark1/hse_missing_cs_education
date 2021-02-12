@@ -1,0 +1,10 @@
+b f
+r
+b *0x00005555555549b0
+commands 2
+set $eax=1
+set $ecx=2
+c
+end
+c
+
