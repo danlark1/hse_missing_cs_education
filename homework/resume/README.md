@@ -50,18 +50,18 @@
   на своё ФИО. Измененный файл включите в будущий github репозиторий.
 * Для установки pdflatex, чтобы собирать pdf файлы с Вашими резюме необходимы
   следующие пакеты:
-  * texlive-fonts-recommended (для шрифтов)
-  * texlive-generic-recommended (обычный пакет)
-  * texlive-latex-extra (для доп возможностей как параграфы и сложная математика)
-  * texlive-fonts-extra (для больше шрифтов)
-  * dvipng (для картинок .dvi формата)
-  * texlive-latex-recommended (для установки макропакета LaTeX)
-  * texlive-base (что-то ещё, без чего не собирается)
-  * texlive-pictures (больше картинок)
-  * texlive-lang-cyrillic (для русского языка)
-  * texlive-science (для ещё больше математики)
-  * cm-super (для системных шрифтов)
-  * texlive-generic-extra (обычный дополнительный пакет, иногда требуется)
+  * `texlive-fonts-recommended` (для шрифтов)
+  * `texlive-generic-recommended` (обычный пакет)
+  * `texlive-latex-extra` (для доп возможностей как параграфы и сложная математика)
+  * `texlive-fonts-extra` (для больше шрифтов)
+  * `dvipng` (для картинок .dvi формата)
+  * `texlive-latex-recommended` (для установки макропакета LaTeX)
+  * `texlive-base` (что-то ещё, без чего не собирается)
+  * `texlive-pictures` (больше картинок)
+  * `texlive-lang-cyrillic` (для русского языка)
+  * `texlive-science` (для ещё больше математики)
+  * `cm-super` (для системных шрифтов)
+  * `texlive-generic-extra` (обычный дополнительный пакет, иногда требуется)
 
   Вы можете добавлять свои пакеты, если они Вам нужны, ну или если я что-то
   забыл и что-то не работает на каком-то линуксе.
