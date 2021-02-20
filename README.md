@@ -16,7 +16,7 @@
 1. [apt, pacman, brew. Децентрализованные package менеджеры. Ubuntu, Gentoo, Arch Linux, Fedora, их философия и выбор, open source.](./package_managers) [**Запись**](https://youtu.be/jObFt15pg38)
 1. Виртуализация и контейнеризация: VM, Docker, FUSE, SSHFS, SSH. [**Запись**](https://youtu.be/H3Kqcvzxlac)
 1. [Markdown, LaTeX, LaTeX beamer, Overleaf.](./layout_systems) [**Запись**](https://youtu.be/SxKh1WT6XKk)
-1. [Железо, характеристики, производительность, numbers each programmer should know](./hardware)
+1. [Железо, характеристики, производительность, numbers each programmer should know](./hardware) [**Запись**](https://youtu.be/aOWSJxl4MYc)
 1. [Технология LLVM для написания языков программирования.](./llvm)
 1. Вопросы и ответы по любым интересующим Вас темам, разбор домашних заданий.
 [Форма](https://forms.gle/EZCdUxjXuvozwA726), если Вы хотите что-то специфичное, что не было в программе курса.
