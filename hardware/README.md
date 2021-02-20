@@ -221,6 +221,7 @@ TODO: написать про GPU
 
 ## Ссылки
 
+* [Разбивка некоторых latency/throughput по годам](https://colin-scott.github.io/personal_website/research/interactive_latency.html)
 * [What Every Programmer Should Know About Memory](http://www.sgidepot.co.uk/misc/cpumemory.pdf)
 * [Discovering Hard Disk Physical Geometry through Microbenchmarking
 ](http://blog.stuffedcow.net/2019/09/hard-disk-geometry-microbenchmarking/)
