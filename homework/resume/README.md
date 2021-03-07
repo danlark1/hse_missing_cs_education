@@ -100,7 +100,8 @@
   резюме, желательно в отдельную папку.
 * Положите в корень репозитория так же Dockerfile и README.md.
 * Прочитайте про [Github Actions](https://docs.github.com/en/actions) и
-  [Docker Github Actions](https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action)
+  [Docker Github Actions](https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action). Если
+  кратко, то это CI система, для чего-то простого она бесплатна. Можете [почитать](../../build_systems#ci-системы) немного про CI системы в одной из лекций.
 * Сделайте `README.md`, где Вы обязаны указать своё ФИО и группу. Можете ещё
   пасхалок там наделать, если хочется :)
 * Умно назовите все секции во всех рецептах, см гайд выше
