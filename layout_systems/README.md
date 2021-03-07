@@ -295,6 +295,7 @@ LaTeX предоставляет возможности для манипуля�
 
 # Ссылки
 
+* [Шаблоны LaTeX для оформления по ГОСТу (курсовые, дипломые и так далее)](https://github.com/latex-g7-32/latex-g7-32/wiki/%D0%93%D0%9E%D0%A1%D0%A2-7.32-2017)
 * [Интерактивный Markdown Tutorial](https://www.markdowntutorial.com/)
 * [Side by side github markdown online editor](https://jbt.github.io/markdown-editor/)
 * [Мой недавний напиханный различным markdown репозиторий](https://github.com/danlark1/miniselect) или [даже репозиторий с этим курсом](https://github.com/danlark1/hse_missing_cs_education)
