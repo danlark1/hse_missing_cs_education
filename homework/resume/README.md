@@ -69,7 +69,7 @@
   * `cm-super` (для системных шрифтов)
   * `texlive-generic-extra` (обычный дополнительный пакет, иногда требуется)
 
-  Fedora:
+  Fedora (вместо apt на Debian или Ubuntu используйте yum):
 
   * `texlive-collection-latexrecommended`
   * `texlive-collection-fontsrecommended`
