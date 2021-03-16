@@ -11,7 +11,6 @@ systems = [
     'ubuntu:20.10',
     'ubuntu:18.04',
     'ubuntu:18.10',
-    'fedora:34',
     'fedora:33',
     'fedora:32',
     'fedora:31',

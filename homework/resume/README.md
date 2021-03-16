@@ -5,6 +5,9 @@
 с помощью Docker и настроить CI систему, чтобы при обновлении Вашего резюме
 пересобиралась финальная pdf.
 
+В этом задании Вам придётся пострадать, проявить навыки гугления и понимания
+ошибок, которые возникают. Инструкции являются примерными.
+
 ## Пишем резюме в LaTeX
 
 Шаги действия.
@@ -52,7 +55,7 @@
   [choose_system.py](./choose_system.py), где Вы переменную `name` заменяете
   на своё ФИО. Измененный файл включите в будущий github репозиторий.
 * Для установки pdflatex, чтобы собирать pdf файлы с Вашими резюме необходимы
-  следующие пакеты:
+  следующие пакеты (Ubuntu 18.04, Debian), на Ubuntu 20.04 установить можно только те, которые устанавливаются:
   * `texlive-fonts-recommended` (для шрифтов)
   * `texlive-generic-recommended` (обычный пакет)
   * `texlive-latex-extra` (для доп возможностей как параграфы и сложная математика)
@@ -66,10 +69,23 @@
   * `cm-super` (для системных шрифтов)
   * `texlive-generic-extra` (обычный дополнительный пакет, иногда требуется)
 
-  **Если возникают сложности с Fedora, можете поставить `texlive-scheme-full`.**
+  Fedora:
+
+  * `texlive-collection-latexrecommended`
+  * `texlive-collection-fontsrecommended`
+  * `texlive-collection-pictures`
+  * `texlive-collection-science`
+  * `texlive-collection-langcyrillic`
 
   Вы можете добавлять свои пакеты, если они Вам нужны, ну или если я что-то
   забыл и что-то не работает на каком-то линуксе.
+
+  Не забывайте сделать update перед install (у apt и у yum, см. [таймкод](https://youtu.be/H3Kqcvzxlac?t=1528)).
+  Если есть проблемы с tzdata, Вам
+  [сюда](https://serverfault.com/questions/949991/how-to-install-tzdata-on-a-ubuntu-docker-image),
+  если архивы ubuntu 18.04, Вам [сюда](https://t.me/hse_msemester_2020/63).
+  Не забывайте флаг `-y`, который означает `yes` для подтверждения установки.
+
 * Чтобы разобраться с образами, контейнерами стоит использовать следующие команды
   * `# docker build --tag $YOUR_TAG -f Dockerfile .` Для сбора и выставления тега
   * `# docker run -it $YOUR_TAG /bin/bash`. Для создания контейнера для запуска
@@ -149,7 +165,7 @@
 
 ## Сдача
 
-* Добавьте меня как collaborator в Ваш репозиторий
+* Добавьте меня (danlark1, без символа @) как collaborator в Ваш репозиторий
 
 
 <p align="center">
@@ -170,7 +186,7 @@
   <img src="./media/commit_url.png" />
 </p>
 
-* Сдать эту ссылку в [форму](https://forms.gle/W2qgkRc6dJSLVN458).
+* **Сдать эту ссылку в [форму](https://forms.gle/W2qgkRc6dJSLVN458).**
 
 # Оценка
 
