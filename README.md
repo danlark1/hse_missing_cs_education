@@ -10,13 +10,14 @@
 1. [Shell scripting, grep, find, curl, sed.](./shell_scripting) [**Запись**](https://youtu.be/4I24oiwAedI)
 1. [Мощь текстовых редакторов, vim и sublime text. Философия, архитектура, ключевые идеи.](./text_editors) [**Запись**](https://youtu.be/NcCwTYlB2Ss)
 1. [git, mercurial и svn, основные идеи.](./version_control) [**Запись**](https://youtu.be/xbZceDrBhIA)
-1. Безопасность и приватность. [**Запись**](https://youtu.be/PlL44J5OOWQ)
+1. [Безопасность и приватность.](./security_privacy) [**Запись**](https://youtu.be/PlL44J5OOWQ)
 1. [gdb, lldb, дебаг процессов unix систем.](./gdb) [**Запись**](https://youtu.be/tWvuSPJi4T0)
 1. [cmake, make, bazel, gopackage, requirements.txt, CI, тестирование. Основные определения, понятия, способы сборки.](./build_systems) [**Запись**](https://youtu.be/XBdmvvvunb4)
 1. [apt, pacman, brew. Децентрализованные package менеджеры. Ubuntu, Gentoo, Arch Linux, Fedora, их философия и выбор, open source.](./package_managers) [**Запись**](https://youtu.be/jObFt15pg38)
 1. Виртуализация и контейнеризация: VM, Docker, FUSE, SSHFS, SSH. [**Запись**](https://youtu.be/H3Kqcvzxlac)
-1. Markdown, LaTeX, LaTeX beamer, Notebook, Overleaf, github actions.
-1. [Технология LLVM для написания языков программирования.](./llvm)
+1. [Markdown, LaTeX, LaTeX beamer, Overleaf.](./layout_systems) [**Запись**](https://youtu.be/SxKh1WT6XKk)
+1. [Железо, характеристики, производительность, numbers each programmer should know.](./hardware) [**Запись**](https://youtu.be/aOWSJxl4MYc)
+1. [Технология LLVM для написания языков программирования.](./llvm) [**Запись**](https://youtu.be/lgzxifLoY4E)
 1. Вопросы и ответы по любым интересующим Вас темам, разбор домашних заданий.
 [Форма](https://forms.gle/EZCdUxjXuvozwA726), если Вы хотите что-то специфичное, что не было в программе курса.
 
@@ -34,7 +35,7 @@
 
 1. [Shell Scripting](./homework/shell_scripting)
 1. [GDB Debug](./homework/gdb_debug)
-1. Публикация своего резюме через Github Actions
+1. [Публикация своего резюме через Github Actions](./homework/resume)
 
 ## Ссылки
 

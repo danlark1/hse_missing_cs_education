@@ -1,0 +1,44 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T2A]{fontenc}
+% Plain TeX, ASM TeX, MiKTeX ~ LaTeX -> LaTeX 2\varepsilon
+\title{Example}
+\author{Данила Кутенин}
+\date{February 2021}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+Абзацы отделяются друг от друга
+пустой строкой.
+
+Пробелы можно ставить как угодно,
+это не влияет на результат. Эта {\bf секция жирным шрифтом}, а эта {\it в italic}
+
+\begin{itemize}
+  \item One
+  \item Two
+\end{itemize}
+
+\section{Formula}
+% #
+
+$x^2 - 4 = (x - 2)(x + 2)$
+
+\section{Big Formula}
+Центральная формула:
+
+$$
+a^2 + b^2 = c^2 \leq d^2
+$$
+
+\section{Conclusion}
+``I always thought something was fundamentally wrong with the universe'' \citep{adams1995hitchhiker}
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}
