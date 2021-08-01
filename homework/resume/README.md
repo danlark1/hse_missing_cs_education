@@ -82,8 +82,7 @@
 
   Не забывайте сделать update перед install (у apt и у yum, см. [таймкод](https://youtu.be/H3Kqcvzxlac?t=1528)).
   Если есть проблемы с tzdata, Вам
-  [сюда](https://serverfault.com/questions/949991/how-to-install-tzdata-on-a-ubuntu-docker-image),
-  если архивы ubuntu 18.04, Вам [сюда](https://t.me/hse_msemester_2020/63).
+  [сюда](https://serverfault.com/questions/949991/how-to-install-tzdata-on-a-ubuntu-docker-image).
   Не забывайте флаг `-y`, который означает `yes` для подтверждения установки.
 
 * Чтобы разобраться с образами, контейнерами, стоит использовать следующие команды
