@@ -389,18 +389,26 @@ bash: hello.txt: Permission denied
 `>/dev/null 2>/dev/null`. А если Вам надо что-то поискать по `stderr`, можно
 его перенаправить в `stdout` с помощью `2>&1 | grep $your_token`:
 
+Считаю, что пример с man | grep you так себе, так как man выводит лишь одну строку и нет смысла в grep-е, лично я сперва запутался, предлагаю, что-то такое
+(можно выбрать слово, по которому выдастся лишь одна строка, но главное, чтобы grep что-то менял).
 ```console
-danlark@danlark:~$ man | grep you
-What manual page do you want?
-For example, try 'man man'.
-danlark@danlark:~$ man 2>&1 | grep you
-What manual page do you want?
-danlark@danlark:~$ man 2>&1 >/dev/null | grep you
-What manual page do you want?
-danlark@danlark:~$ man 2>&1 2>/dev/null | grep you
-What manual page do you want?
-danlark@danlark:~$ man 2>/dev/null | grep you
-```
+danlark@danlark:~$ man chmod | grep utility
+The chmod utility modifies the file mode bits of the listed files as
+     The chmod utility exits 0 on success, and >0 if an error occurs.
+     The chmod utility is expected to be IEEE Std 1003.2 (``POSIX.2'') compat-
+danlark@danlark:~$ man chmod 2>&1 | grep utility
+The chmod utility modifies the file mode bits of the listed files as
+     The chmod utility exits 0 on success, and >0 if an error occurs.
+     The chmod utility is expected to be IEEE Std 1003.2 (``POSIX.2'') compat-
+danlark@danlark:~$ man chmod 2>&1 >/dev/null | grep utility
+The chmod utility modifies the file mode bits of the listed files as
+     The chmod utility exits 0 on success, and >0 if an error occurs.
+     The chmod utility is expected to be IEEE Std 1003.2 (``POSIX.2'') compat-
+danlark@danlark:~$ man chmod 2>&1 2>/dev/null | grep utility
+The chmod utility modifies the file mode bits of the listed files as
+     The chmod utility exits 0 on success, and >0 if an error occurs.
+     The chmod utility is expected to be IEEE Std 1003.2 (``POSIX.2'') compat-
+danlark@danlark:~$ man chmod 2>/dev/null | grep utility
 
 ## Множество команд
 
