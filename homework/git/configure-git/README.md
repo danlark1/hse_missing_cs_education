@@ -4,6 +4,8 @@ This kata has no `setup.sh` script. Just read and follow along.
 
 ## Downloading and Installing on Windows
 
+This section is not obligatory to record.
+
 * Download at [https://git-scm.com/download/win](https://git-scm.com/download/win) (or use [Chocolatey](https://chocolatey.org/))
 * Install using the pre-selected defaults
 * After installation, open Git Bash for following configuration steps
@@ -17,6 +19,8 @@ In order to do that, configure user name and user email towards Git with the fol
 2. `git config --global user.email "johndoe@example.com`
 
 ### Editor setup
+
+This section is not obligatory to do.
 
 Sometimes Git needs you to edit a file it creates e.g. the message of a commit you create.
 As default, Git is configured with VIM, but that has a steep learning curve, so you might be better off with another tool of yor liking:
@@ -35,6 +39,8 @@ Or alternatively other tools you already are familiar with:
 
 ### Aliases
 
+This section is not obligatory to do.
+
 You can set up aliases as such:
 * `git config --global alias.lol 'log --oneline --graph --all'`
 
@@ -44,6 +50,8 @@ Paste that into your terminal, and try it out with `git lol`.
 More on aliases can be found in the alias kata.
 
 ### SSH authentication
+
+This section is not obligatory to do.
 
 - See https://help.github.com/articles/generating-an-ssh-key for details about authenticating against SSH-enabled repositories
 - Or run `ssh-keygen` to generate a SSH key pair in `%USERPROFILE%/.ssh/`:
