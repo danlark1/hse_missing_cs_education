@@ -1,0 +1,4 @@
+Task 4: Newest commit becomes 9th commit (instead of 10th commit) now in stage area
+Task 6: Newest commit becomes 8th commit (instead 9th commit). Changes now are added to current working directory (not stage area, both file 9 & 10)
+Task 8: Newest commit becomes 7th commit (instead 8 commit). Changes of 9th & 10th commit still in current working dir (not stage area). But changes of 8th commit are gone.
+Task 10: Newest commit becomes 6th commit (but 7th commit are after). Changes of 9th & 10th commit still in current working directory. Changes of 8th commit are gone forever
