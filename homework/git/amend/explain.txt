@@ -1,0 +1,2 @@
+Task 5: `git log -p` show the differences between last commit with stage area 
+Task 6: It changes commit SHA
