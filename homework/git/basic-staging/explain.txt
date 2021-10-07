@@ -1,0 +1,10 @@
+Task 4: It is blank because --staged flag will print out the difference of current working dir with last commit. We dont add it to staged area yet, so no content in staged area => so it makes the output blank
+Task 11: 
+- Task 5: add changes from current working directory to staged area
+- Task 6: git diff => blank because changes have been move to staged area
+- Task 7: git diff => show difference between last commit with just-move-to-staged changes (1 & 2)
+- Task 8: add changes
+- Task 9: show the difference between last commit betwwen current working directory ( 2 & 3) 
+- Task 10: result like task 10 because of --staged flag 
+
+
