@@ -214,7 +214,7 @@ git lol     # Does a "git log --graph --oneline --all"
 
 ### Cleanup
 
-Вы можете удалить все ненужные артифакты, `exercise` директории с помощью `git clean` команды:
+Вы можете удалить все ненужные артефакты, `exercise` директории с помощью `git clean` команды:
 
 ```sh
 git clean -ffdX
