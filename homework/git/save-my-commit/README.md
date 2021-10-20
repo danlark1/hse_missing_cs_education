@@ -20,7 +20,7 @@ We just reset the `master` branch to the initial commit. We will recover the los
 8. Compare history and workspace to the solution using reset
 9. Again, undo your solution using `git reset --hard initial-commit` 
 10. Remove reflog records, referencing old commits
-11. Force the Git garbage collector to run with `git gc`
+11. Force the Git garbage collector to run with `git gc --prune=now`
 12. Try to restore the holy grail using one of the previous solutions
 
 ## Relevant git commands
