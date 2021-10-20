@@ -59,5 +59,3 @@ Go to the `product_alpha` repository. We'll ensure that we have the latest chang
 21. Run `git submodule update --remote`.
 19. Is the latest change from `component` available in include?
 20. Examine the output of `git submodule status`. Compare the commit id with the `component` repository.
-
-Draw this entire exercise!
