@@ -19,11 +19,13 @@ We just reset the `master` branch to the initial commit. We will recover the los
 7. Use `git cherry-pick` to restore `holygrail.txt`
 8. Compare history and workspace to the solution using reset
 9. Again, undo your solution using `git reset --hard initial-commit` 
-10. Force the Git garbage collector to run with `git gc`
-11. Try to restore the holy grail using one of the previous solutions
+10. Remove reflog records, referencing old commits
+11. Force the Git garbage collector to run with `git gc`
+12. Try to restore the holy grail using one of the previous solutions
 
 ## Relevant git commands
 - `git reflog`
+- `git reflog expire --expire-unreachable=now --all`
 - `git cherry-pick`
 - `git reset --hard`
 - `git log`
