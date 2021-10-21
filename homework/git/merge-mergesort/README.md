@@ -1,5 +1,5 @@
 # Git Kata: Merge Mergesort
-In this kata you will be facing your first merge conflict!
+In this kata you will be facing your second merge conflict!
 There will be two different branches:
 
 * Mergesort-Impl
