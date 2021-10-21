@@ -70,48 +70,48 @@ $ asciinema play PROBLEM.cast
 
 ## Setup
 
-1. [configure-git](configure-git/README.md) - Сконфигурируйте git.
+1. [configure-git](configure-git) - Сконфигурируйте git.
 
 ## Основы
 
-1. [basic-commits](basic-commits/README.md) - Научитесь коммитить.
-2. [basic-staging](basic-staging/README.md) - Поиграйте со `stage` состоянием.
-3. [basic-branching](basic-branching/README.md) - Ознакомьтесь с ветками.
-4. [ff-merge](ff-merge/README.md) - Помёржьте различные ветки.
-5. [3-way-merge](3-way-merge/README.md) - А теперь посложнее merge.
-6. [merge-conflict](merge-conflict/README.md) - А теперь в ветках есть конфликты.
-7. [merge-mergesort](merge-mergesort/README.md) - Конфликт с вашим кодом.
-8. [rebase-branch](rebase-branch/README.md) - Играемся с rebase.
-9. [basic-revert](basic-revert/README.md) - Откатываем изменения.
-10. [reset](reset/README.md) - Изучаем опасную команду reset.
-11. [basic-cleaning](basic-cleaning/README.md) - Очищаем генерируемые файлы.
-12. [amend](amend/README.md) - Склеиваем коммит к предыдущему.
-13. [reorder-the-history](reorder-the-history/README.md) - Меняем порядок коммитов.
-14. [squashing](squashing/README.md) - Склеиваем много коммитов в один.
-15. [advanced-rebase-interactive](advanced-rebase-interactive/README.md) - Играемся с интерактивным rebase.
-16. [basic-stashing](basic-stashing/README.md) - Написали кода, надо обновиться, а коммитить не хочется. На помощь приходит stash.
-17. [ignore](ignore/README.md) - Пишем `.gitignore` файлы. Удаляем с помощью `git rm`.
-18. [submodules](submodules/README.md) - Интегрируем сабмодули.
-19. [git-tag](git-tag//README.md) - Играемся с тегами коммитов.
+1. [basic-commits](basic-commits) - Научитесь коммитить.
+2. [basic-staging](basic-staging) - Поиграйте со `stage` состоянием.
+3. [basic-branching](basic-branching) - Ознакомьтесь с ветками.
+4. [ff-merge](ff-merge) - Помёржьте различные ветки.
+5. [3-way-merge](3-way-merge) - А теперь посложнее merge.
+6. [merge-conflict](merge-conflict) - А теперь в ветках есть конфликты.
+7. [merge-mergesort](merge-mergesort) - Конфликт с вашим кодом.
+8. [rebase-branch](rebase-branch) - Играемся с rebase.
+9. [basic-revert](basic-revert) - Откатываем изменения.
+10. [reset](reset) - Изучаем опасную команду reset.
+11. [basic-cleaning](basic-cleaning) - Очищаем генерируемые файлы.
+12. [amend](amend) - Склеиваем коммит к предыдущему.
+13. [reorder-the-history](reorder-the-history) - Меняем порядок коммитов.
+14. [squashing](squashing) - Склеиваем много коммитов в один.
+15. [advanced-rebase-interactive](advanced-rebase-interactive) - Играемся с интерактивным rebase.
+16. [basic-stashing](basic-stashing) - Написали кода, надо обновиться, а коммитить не хочется. На помощь приходит stash.
+17. [ignore](ignore) - Пишем `.gitignore` файлы. Удаляем с помощью `git rm`.
+18. [submodules](submodules) - Интегрируем сабмодули.
+19. [git-tag](git-tag/) - Играемся с тегами коммитов.
 
 ## Решаем стандартные проблемы
 
-1. [commit-on-wrong-branch](commit-on-wrong-branch/README.md) - Если мы случайно поместили неопубликованные коммиты в неправильную ветку, как нам эффективно _переместить_ их в другую ветку, прежде чем работать над ней?
-2. [commit-on-wrong-branch-2](commit-on-wrong-branch-2/README.md) - Посложнее предыдущего.
-3. [reverted-merge](reverted-merge/README.md) - Откатываем merge, а потом накатываем с фиксами.
-4. [save-my-commit](save-my-commit/README.md) - Удалили коммит? Узнайте как его вернуть.
-5. [detached-head](detached-head/README.md) - git жалуется, что вы "You are in 'detached HEAD' state". Что делать?
+1. [commit-on-wrong-branch](commit-on-wrong-branch) - Если мы случайно поместили неопубликованные коммиты в неправильную ветку, как нам эффективно _переместить_ их в другую ветку, прежде чем работать над ней?
+2. [commit-on-wrong-branch-2](commit-on-wrong-branch-2) - Посложнее предыдущего.
+3. [reverted-merge](reverted-merge) - Откатываем merge, а потом накатываем с фиксами.
+4. [save-my-commit](save-my-commit) - Удалили коммит? Узнайте как его вернуть.
+5. [detached-head](detached-head) - git жалуется, что вы "You are in 'detached HEAD' state". Что делать?
 
 ## Продвинутые фичи
 
-1. [git-attributes](git-attributes/README.md) - .gitattributes файл позволяет настроить то, как вы будете работать с концами строк или сравнивать бинарные файлы.
-2. [Bad-commit](bad-commit/README.md) - Настройте бисекцию `git bisect`, чтобы найти плохой коммит.
-3. [bisect](bisect/README.md) - Посложнее сценарий бинарного поиска `git bisect`.
-4. [pre-push](pre-push/README.md) - Настраиваем git хуки.
-5. [Investigation](investigation/README.md) - Смотрим, что под капотом git репозитория.
-6. [Objects](objects/README.md) - И ещё.
-7. [merge-driver](merge-driver/README.md) - Устанавливаем свой драйвер для слияний.
-8. [rebase-exec](rebase-exec/README.md) - Гоняем тесты на все ваши коммиты с помощью `git rebase --exec`.
+1. [git-attributes](git-attributes) - .gitattributes файл позволяет настроить то, как вы будете работать с концами строк или сравнивать бинарные файлы.
+2. [Bad-commit](bad-commit) - Настройте бисекцию `git bisect`, чтобы найти плохой коммит.
+3. [bisect](bisect) - Посложнее сценарий бинарного поиска `git bisect`.
+4. [pre-push](pre-push) - Настраиваем git хуки.
+5. [Investigation](investigation) - Смотрим, что под капотом git репозитория.
+6. [Objects](objects) - И ещё.
+7. [merge-driver](merge-driver) - Устанавливаем свой драйвер для слияний.
+8. [rebase-exec](rebase-exec) - Гоняем тесты на все ваши коммиты с помощью `git rebase --exec`.
 
 ## Cheatsheet
 
