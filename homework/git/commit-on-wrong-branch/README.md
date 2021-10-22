@@ -47,8 +47,7 @@ Note: since the B in the current and in the target structure don't have the same
 3. Make a new branch (changes-including-B) off of our master so we can keep working on B.
 4. Reset the HEAD on master back to C.
 5. Delete the quickfix branch.
-6. Push master. You can't do this in the training exercise.
-7. You can merge the changes-including-B branch to master and delete changes-including-B or just checkout changes-including-B and work there.
+6. You can merge the changes-including-B branch to master and delete changes-including-B or just checkout changes-including-B and work there.
 
 ## Useful commands
 - `git log --oneline --graph --all`
