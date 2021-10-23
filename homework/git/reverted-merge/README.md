@@ -38,6 +38,11 @@ features should be included in `mymodule.txt`.
 >  So the merge will still exist, and it will still be seen as joining
 >  the two branches together, and future merges will see that merge as
 >  the last shared state
+>
+> Reverting a merge commit declares that you will never want the tree 
+> changes brought in by the merge. As a result, later merges will only 
+> bring in tree changes introduced by commits that are not ancestors 
+> of the previously reverted merge. This may or may not be what you want.
 
 4. Undo the merge with a reset --hard
 5. Revert the revert and try the merge again. This time it works.
