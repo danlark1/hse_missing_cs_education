@@ -1,4 +1,4 @@
-#! /usr/bin/env sh
+#! /usr/bin/env bash
 
 cd exercise
 if [[ "$(git log -1 --format='%s' refs/bisect/bad -- )" = '22' ]] ; then
