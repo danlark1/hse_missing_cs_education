@@ -19,7 +19,7 @@ After running the setup script, you'll be left with three repositories inside th
 
 Go to the `product` repository.
 
-1. Add component as a submodule of product by running `git submodule add ../remote include`.
+1. Add component as a submodule of product by running `git submodule add ../component include`.
 2. What does your working directory look like?
 3. Does `git status` look like you expect?
 4. What if you cd to `include`?
