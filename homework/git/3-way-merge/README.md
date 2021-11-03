@@ -9,7 +9,7 @@ You again live in your own branch, this time we will be doing a bit of juggling 
 
 1. Create a branch called greeting and check it out
 2. Edit the greeting.txt to contain your favorite greeting
-3. Add greeting.txt files to the staging area
+3. Add greeting.txt file to the staging area
 4. Commit
 5. Switch back to the master branch
 6. Create a file README.md with information about this repository
