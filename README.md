@@ -14,7 +14,7 @@
 1. [gdb, lldb, дебаг процессов unix систем.](./gdb)
 1. [cmake, make, bazel, gopackage, requirements.txt, CI, тестирование. Основные определения, понятия, способы сборки.](./build_systems)
 1. [apt, pacman, brew. Децентрализованные package менеджеры. Ubuntu, Gentoo, Arch Linux, Fedora, их философия и выбор, open source.](./package_managers)
-1. Виртуализация и контейнеризация: VM, Docker, FUSE, SSHFS, SSH.
+1. [Виртуализация и контейнеризация: VM, Docker, FUSE, SSHFS, SSH.](./virtualization)
 1. [Markdown, LaTeX, LaTeX beamer, Overleaf.](./layout_systems)
 1. [Железо, характеристики, производительность, numbers each programmer should know.](./hardware)
 1. [Технология LLVM для написания языков программирования.](./llvm)
