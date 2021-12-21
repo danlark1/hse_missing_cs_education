@@ -244,7 +244,7 @@ ssh -i balaboba.pem ubuntu@ec2-18-222-162-150.us-east-2.compute.amazonaws.com
 Чтобы узнать, как это делать, ознакомьтесь со следующими туториалами:
 - [Release workflow trigger](https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows#release)
 - [Publishing Docker images](https://docs.github.com/en/actions/publishing-packages/publishing-docker-images)
-- [Wait on check action](https://github.com/marketplace/actions/wait-on-check) (или можете оформить все джобы в одном workflow)
+- [Wait on check action](https://github.com/marketplace/actions/wait-on-check)
 
 Учтите, что триггер на completed workflow срабатывает как при при успешном, так и при неуспешном выполнении workflow, поэтому для наших целей этот тип триггера не подходит.
 
