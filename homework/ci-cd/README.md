@@ -201,7 +201,7 @@ ssh -i balaboba.pem ubuntu@ec2-18-222-162-150.us-east-2.compute.amazonaws.com
 
 Самостоятельно прочитайте про [Github Actions](https://docs.github.com/en/actions) и про [Docker container action](https://docs.github.com/en/actions/creating-actions/creating-a-docker-container-action). Самостоятельно разберитесь, как этим пользоваться.
 
-Закоммитьте `.github/workflows/main.yml` конфиг, который будет запускать джобу, выполняющую некоторую проверку вашего кода. В зависимости от языка разработки, в рамках джобы вы можете проверять, что код собирается, что код проходит тесты, что линтер не ругается на код (для Python можете использовать pylint или flake8), что ваш Dockerfile корректный и позволяет запустить приложение. 
+Закоммитьте `.github/workflows/main.yml` конфиг, который будет запускать джобу, выполняющую некоторую проверку вашего кода. В зависимости от языка разработки, в рамках джобы вы можете проверять, что код собирается, что код проходит тесты, что линтер не ругается на код (для Python можете использовать pylint или flake8), что ваш Dockerfile корректный и позволяет запустить приложение. CI должен запускаться при каждом push'e в репозиторий.
 
 Необходимые acton'ы найдите самостоятельно.
 
@@ -241,7 +241,7 @@ ssh -i balaboba.pem ubuntu@ec2-18-222-162-150.us-east-2.compute.amazonaws.com
 
 Теперь добавьте job'у, которая делает docker push в созданный репозиторий на Docker Hub:
 - Job'a должна запускаться после *успешного* прохождения предыдущих workflow (которые вы добавили раньше).
-- Workflow должен триггериться на создание тега или release.
+- Workflow должен триггериться **только** при создании тега или release, а не при каждом push'е.
 
 Чтобы узнать, как это делать, ознакомьтесь со следующими туториалами:
 - [Release workflow trigger](https://docs.github.com/en/actions/learn-github-actions/events-that-trigger-workflows#release)
