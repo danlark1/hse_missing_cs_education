@@ -40,10 +40,11 @@
 
 ## Ссылки
 
-1. [Телеграм канал](https://t.me/hse_msemester_2021) для публикации всей
+1. [Телеграм канал 2021-2022](https://t.me/hse_msemester_2021) для публикации всей
 релевантной информации. Закреплённое сообщение содержит всю информацию.
 1. [Форма](https://forms.gle/EZCdUxjXuvozwA726) для обратной связи, а также если
 Вы хотите что-то специфичное, что не было в программе курса.
 1. [Лектор](https://t.me/Danlark), могу поговорить о чём угодно, но в первую
 очередь о вопросах курса.
 1. [Записи 2020-2021 года.](https://www.youtube.com/playlist?list=PLEqoHzpnmTfBlJGjG_2QqKRrXG36TkjNB)
+2. [Записи 2021-2022 года.](https://www.youtube.com/playlist?list=PLEwK9wdS5g0psb_ZYjskVmPBQfEJfI9ui)
