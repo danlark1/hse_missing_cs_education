@@ -101,7 +101,7 @@ permissions](https://en.wikipedia.org/wiki/File-system_permissions#Notation_of_t
 докер образ с правильным окружением.
 
 ```
-$ docker run --privileged -it darthslon/shad-cpp:gdb /bin/bash
+$ docker run --security-opt seccomp=unconfined -it darthslon/shad-cpp:gdb /bin/bash
 root@a9bc09439be8:/# cd opt
 root@a9bc09439be8:/opt# ls
 coredump  flaky  with_core  with_symbols  without_symbols
