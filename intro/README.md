@@ -388,18 +388,25 @@ bash: hello.txt: Permission denied
 `>/dev/null 2>/dev/null`. А если Вам надо что-то поискать по `stderr`, можно
 его перенаправить в `stdout` с помощью `2>&1 | grep $your_token`:
 
+
 ```console
-danlark@danlark:~$ man | grep you
-What manual page do you want?
-For example, try 'man man'.
-danlark@danlark:~$ man 2>&1 | grep you
-What manual page do you want?
-danlark@danlark:~$ man 2>&1 >/dev/null | grep you
-What manual page do you want?
-danlark@danlark:~$ man 2>&1 2>/dev/null | grep you
-What manual page do you want?
-danlark@danlark:~$ man 2>/dev/null | grep you
-```
+danlark@danlark:~$ man chmod | grep utility
+The chmod utility modifies the file mode bits of the listed files as
+     The chmod utility exits 0 on success, and >0 if an error occurs.
+     The chmod utility is expected to be IEEE Std 1003.2 (``POSIX.2'') compat-
+danlark@danlark:~$ man chmod 2>&1 | grep utility
+The chmod utility modifies the file mode bits of the listed files as
+     The chmod utility exits 0 on success, and >0 if an error occurs.
+     The chmod utility is expected to be IEEE Std 1003.2 (``POSIX.2'') compat-
+danlark@danlark:~$ man chmod 2>&1 >/dev/null | grep utility
+The chmod utility modifies the file mode bits of the listed files as
+     The chmod utility exits 0 on success, and >0 if an error occurs.
+     The chmod utility is expected to be IEEE Std 1003.2 (``POSIX.2'') compat-
+danlark@danlark:~$ man chmod 2>&1 2>/dev/null | grep utility
+The chmod utility modifies the file mode bits of the listed files as
+     The chmod utility exits 0 on success, and >0 if an error occurs.
+     The chmod utility is expected to be IEEE Std 1003.2 (``POSIX.2'') compat-
+danlark@danlark:~$ man chmod 2>/dev/null | grep utility
 
 ## Множество команд
 
@@ -489,6 +496,10 @@ fish делает это умнее: выдаёт предложения исх�
 больше всего. У меня нет задачи заставить Вас пользоваться тем, чем я пользуюсь.
 
 [Пример](https://github.com/TmLev/notes/blob/master/zsh.md) установки и кастомизации zsh от TmLev.
+
+## Поиск по истории команд
+
+Через 'Ctrl+r' в bash можно смотреть историю команд, можно найти старую команду. Бывает полезно, когда хочется найти длинную команду.
 
 ## tmux
 
